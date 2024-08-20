@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix signup page</title>
+</head>
+<style>
+      *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        background:rgba(0, 0, 0, 0.6) url(./Images/pictures/Netflix.JPEG);
+        background-size: cover; 
+height: 100vh;
+        background-blend-mode: darken;
+        width: 100vw;
+    }
+    
+   .logo{
+    width: 150px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 150px;
+   }
+   .background{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    height: 100%;
+    width:450px;
+   }
+   .head{
+    color: #fff;
+    padding-top: 30px ;
+    padding-left: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .mail{
+   color: #fff;
+    text-decoration: none;
+    border: none;
+    height:30px ;
+    width: 280px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 65px;
+    border-radius: 5px;
+   }
+  .password{
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    height:30px ;
+    width: 280px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-top:18px;
+    margin-right: 50px;
+    margin-left: 65px;
+    border-radius: 5px;
+  }
+  .signin{
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    height:16px ;
+    width: 280px;
+    display: flex;
+    background-color: #e50914;
+    font-size: 15px;
+    padding: 15px 20px;
+    margin-top: 18px;
+    margin-right: 50px;
+    margin-left: 65px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .or{
+    color:#fff;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .signin2{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    height:16px ;
+    width: 280px;
+    display: flex;
+    background-color: rgb(107, 105, 105);
+    font-size: 15px;
+    padding: 15px 20px; 
+     margin-top: 18px;
+    margin-right: 50px;
+    margin-left: 65px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+   .para1{ 
+  color: azure;
+  font-size: 15px;
+  padding-top:18px ;
+  margin-left: 170px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+} 
+ .checkbox{
+  height: 20px;
+  width: 20px;
+  border-radius: 100px;
+background-color: black;
+margin-left:65px ;
+margin-top: 25px;
+} 
+.para2{
+  margin-top: 18px;
+  margin-left: 65px;
+  color: azure;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signup{
+  text-decoration: none;
+  color: azure;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 20px;
+}
+.para3{
+  font-size: 13px;
+  color: azure;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left:65px ;
+  margin-top: 18px;
+}
+.span{
+  color: azure;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
+
+.body{
+  justify-content: space-between;
+  display: flex;
+ margin-top: 300px; 
+}
+ .para{ 
+  color: azure;
+  font-size: 18px;
+  margin-left: 150px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+} 
+.body2{
+  display: flex;
+  justify-content: space-around;
+  margin-top:30px ;
+}
+.head1{
+  color: azure;
+  font-size: 18px;
+  margin-left: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+} 
+.head2{
+  color: azure;
+  font-size: 18px;
+  margin-left: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.head3{
+  color: azure; 
+  color: azure;
+  font-size: 18px;
+  margin-left: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.head4{
+  color: azure;
+  font-size: 18px;
+  margin-left: 170px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.body3{
+  display: flex;
+  /* justify-content: space-around;  */
+  margin-top:20px ;
+  margin-bottom: 200PX;
+}
+.head5{
+  color: azure;
+  font-size: 18px;
+  margin-left: 150px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.head6{
+  color: azure;
+  font-size: 18px;
+  margin-left: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+</style>
+
+<body bgcolor="#000">
+    <div class="container">
+        <img class="logo" src="./Images/pictures/logo.png">
+        <div class="background"> 
+            <div class="head"><h1>Sign In</h1></div>
+            <input type="text" class="mail" placeholder="Email or mobile number">
+            <input type="password" class="password" placeholder="Password">
+            <a href="" class="signin">Sign in</a>
+            <p class="or">OR</p>
+            <a href="" class="signin2">Use a Sign-In Code</a>
+            <p class="para1">Forgot password?</p>
+            <input type="checkbox" class="checkbox"><span class="span">Remember me</span>
+<p class="para2">New to Netflix? Sign up now.</p>
+<p class="para3">This page is protected by Google reCAPTCHA to <br> ensure you're not a bot.</p>
+        </div>
+    </div>
+    <div class="body">
+      <a href="" class="para">Questions? Contact us.</a>
+    </div>
+    <div class="body2">
+       <a href="" class="head1">FAQ</a>
+       <a href="" class="head2">Help Center</a><a href="" class="head3">Terms of Use</a><a href="" class="head4">Privacy</a> 
+    </div>   
+    <div class="body3">
+     <span> <a href="" class="head5">Cookie Preference</a> </span><span><a href="" class="head6">Corporate Information</a></span>
+    </div>  
+    
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        background:rgba(0, 0, 0, 0.6) url(./Images/pictures/Netflix.JPEG);
+        background-size: cover; 
+        height: 100vh;
+        background-blend-mode: darken;
+        width: 100vw;
+    }
+    
+   .logo{
+    width: 150px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 150px;
+   }
+
+#head1{
+    color: white;
+    padding-top: 160px; 
+     padding-left: 250px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para1{
+    color: white;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+.para2{
+    color: white;
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+.Signin{
+    background-color:#e50914;
+    color: white;
+    position: fixed;
+right: 150px;
+top: 25px;
+font-size: 15px;
+padding: 08px 18px;
+border-radius: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-style: none;
+text-decoration: none;
+}
+ .input{
+    height: 17px;
+    width: 380px;
+    font-size: 15px;
+    margin-left: 365px;
+    border-style:solid white;
+    padding:20px ;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 30px; 
+    border: none;
+}
+.button{
+    width: 180px;
+    height:35px;
+    background-color:#e50914;
+    color: white;
+position: fixed;
+margin-top: 30px;
+margin-left: 10px;
+font-size: 25px;
+padding: 12px ;
+border-radius: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-style: none;
+cursor: pointer;
+text-decoration: none;
+} 
+/* MEDIA QUERY */
+/* MOBILE */
+@media only screen and (max-width: 480px){
+    /* .container{
+        height: 500px;
+        width: 500px;
+    } */
+    .logo{
+        width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 60px;
+    }
+    .Signin{
+            margin-right: -40px;
+            font-size: 1rem;
+            padding: 5px;
+    }
+    #head1{
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .para1{
+    font-size: 1.2rem;
+    padding-top: 2px;
+    }
+      .para2{
+        font-size:1rem ;
+    padding-top: 1px;
+    padding-right: 60px;
+    padding-left: 40px;
+    }
+    .input{
+        height: 17px;
+    width: 280px;
+    font-size: 15px;
+    margin-left: 60px;
+    padding:20px ;
+    margin-top: 40px; 
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    width: 155px;
+    height:35px;
+margin-top: 30px;
+margin-left: 130px;
+font-size: 22px;
+padding: 9px 9px;
+    }
+} 
+/* TABLET */
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .logo{
+        width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 50px;
+    }
+    .Signin{
+            margin-right: -80px;
+            font-size: 1rem;
+            padding: 5px;
+    }
+    #head1{
+    font-size: 2rem;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 40px;
+    }
+    .para1{
+    font-size: 1.2rem;
+    /* padding-top: 0px; */
+    }
+      .para2{
+        font-size:1rem ;
+    padding-top: 1px;
+    padding-right: 60px;
+    padding-left: 40px;
+    }
+    .input{
+        height: 17px;
+    width: 280px;
+    font-size: 15px;
+    margin-left: 80px;
+    padding:20px ;
+    margin-top: 40px; 
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    width: 155px;
+    height:35px;
+margin-top: 30px;
+margin-left: 150px;
+font-size: 22px;
+padding: 9px 9px;
+    }
+}
+    
+</style>
+
+ <body> 
+<div class="container">
+    <img class="logo" src="./Images/pictures/logo.png">
+    <h1 id="head1">Unlimited movies, TV shows, and more </h1> 
+    <center><p class="para1">Watch anywhere. Cancel anytime.</p></center> 
+      <center><p class="para2">Ready to watch? Enter your email to create or restart your membership.</p></center>
+      <a href="Netflix signup.html" class="Signin">Sign in</a>
+        <input type="text" placeholder="Email address" class="input"> 
+         <a href="" class="button">Get Started ></a> 
+</div>
+
+    
+</body>
+</html>
